@@ -1,0 +1,11 @@
+.ignore/*
+*.lnk
+*.docx
+*.pdf
+jupyterdocker/.idea/*
+jupyterdocker/_archive/*
+sqltempsens/idea/*
+sqltempsens/_archive/*
+upy_build/build/*
+upy_build/_archive/*
+upy_build/rp2/boards/4DSYS_RP2350_70/*

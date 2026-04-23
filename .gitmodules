@@ -1,0 +1,3 @@
+[submodule "sqltempsens/_pico_telemetrie"]
+	path = sqltempsens/_pico_telemetrie
+	url = git@github.com:protronic/pico-telemetry-device.git

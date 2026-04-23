@@ -5,4 +5,4 @@ RUN pip install --no-cache \
     dockerspawner \
     jupyterhub-nativeauthenticator
 
-COPY jupyterhub_config.py /srv/jupyterhub/jupyterhub_config.py
+#COPY _jupyterhub_config.py /srv/jupyterhub/jupyterhub_config.py

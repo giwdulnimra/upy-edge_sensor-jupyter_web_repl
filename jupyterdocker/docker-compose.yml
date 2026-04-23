@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  jupyterhub:
+    build:
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - jupyterhub_data:/srv/jupyterhub/data
+      - ./jupyterhub_config.py:/srv/jupyterhub/jupyterhub_config.py
+    ports:
+      "8000:8000"
+    networks:
+      - jupyterhub #siehe _config.py
+volumes:
+  jupyterhub_data:
+networks:
+  name: jupyterhub
